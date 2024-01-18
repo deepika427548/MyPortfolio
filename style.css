@@ -1,0 +1,40 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.intro img{
+    height: 160px;
+    width:160px;
+}
+ul li{
+list-style: none;
+}
+footer{
+    margin-top: 80px !important;
+}
+span{
+    color: rgb(12, 211, 108);
+}
+.navbar-nav .nav-item .nav-link{
+    border-bottom: 2px solid transparent;
+    box-sizing: border-box;
+  }
+  .navbar-nav .nav-item .nav-link:hover{
+    border-bottom: solid 2px rgb(12, 211, 108);
+    box-sizing: border-box;
+  }
+  .card img{
+    max-height: 180px;
+    box-sizing: border-box;
+  }
+  .card{
+    transition: all 0.3s;
+  }
+  .card:hover{
+    transform:scale(1.15);
+
+  }
+  .card-body{
+    align-items: center;
+  }
+  .projects{
+    margin-bottom: 150px;
+  }
+  
