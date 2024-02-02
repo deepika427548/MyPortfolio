@@ -42,4 +42,14 @@ span{
   .projects{
     margin-bottom: 150px;
   }
-  
+  .icons img{
+    width:35px;
+    height: 26px;
+    padding-left: 10px;
+  }
+  .icons p{
+    border-right: 2px solid black;
+    padding-right: 20px;
+    margin-right: 20px;;
+  }
+ 
