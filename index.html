@@ -43,7 +43,7 @@
                 <a class="nav-link active" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link active" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -78,6 +78,7 @@
               alt=""
             />
           </div>
+          <button type="button" class="btn btn-dark mt-3">Contact me</button>
         </div>
       </section>
 
@@ -85,10 +86,10 @@
 
       <section class="about">
         <div class="row">
-          <div class="col-md-6 text-center my-3">
+          <div class="col-md-6 col-sm-12 text-center my-3">
             <img class="w-75" src="images/my.avif" alt="" />
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-12">
             <p class="fw-bold">ABOUT ME</p>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
@@ -164,8 +165,45 @@
         </div>
       </section>
     </main>
+
+    <!-- contact me section -->
+    <section class="contact mt-5" id="contact">
+      <div class="container">
+        <p class="fs-4 fw-bold text-center">Let's Talk..</p>
+        <div class="contact_form row ms-5">
+          <div class="form-field col-md-6">
+            <input class="input-text" id="name" type="text" />
+            <label for="name" class="label">Name</label>
+          </div>
+          <div class="form-field col-md-6">
+            <input class="input-text" id="email" type="email" />
+            <label for="email" class="label">Email</label>
+          </div>
+          <div class="form-field col-md-6">
+            <input class="input-text" id="phone" type="text" />
+            <label for="phone" class="label">Contact number</label>
+          </div>
+          <div class="form-field col-md-6">
+            <input class="input-text" id="company" type="text" />
+            <label for="company" class="label">Company Name</label>
+          </div>
+          <div class="form-field col-md-12">
+            <input class="input-text" id="message" type="text" />
+            <label for="message" class="label">Message</label>
+          </div>
+          <div class="form-field col-md-12">
+            <input
+              class="submit-btn btn btn-dark"
+              type="submit"
+              value="Submit"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- footer -->
-    <footer class="bg-body-tertiary pt-4 pb-3 mt-6">
+    <!-- <footer class="bg-body-tertiary pt-4 pb-3 mt-6">
       <div class="container d-flex align-items-center">
         <p class="fs-4 fw-bold">DEEPIKA DINESH</p>
         <div class="d-flex flex-grow-1 justify-content-between">
@@ -186,6 +224,41 @@
             <li class="px-2"><i class="bi bi-instagram"></i></li>
             <li class="px-2"><i class="bi bi-github"></i></li>
           </ul>
+        </div>
+      </div>
+    </footer> -->
+
+    <footer class="bg-body-tertiary pt-4 pb-3 mt-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="fs-4 fw-bold">DEEPIKA DINESH</p>
+          </div>
+          <div class="col-md-6 d-flex justify-content-md-end">
+            <ul class="d-flex mb-0">
+              <a class="text-decoration-none text-body-emphasis" href="#">
+                <li class="ps-3 pe-2">Home</li>
+              </a>
+              <a
+                class="text-decoration-none text-body-emphasis"
+                href="#projects"
+              >
+                <li class="pe-2">Projects</li>
+              </a>
+              <a
+                class="text-decoration-none text-body-emphasis"
+                href="#contact"
+              >
+                <li class="pe-2">Contact</li>
+              </a>
+            </ul>
+            <ul class="d-flex mb-0 ms-3">
+              <li class="px-2"><i class="bi bi-linkedin"></i></li>
+              <li class="px-2"><i class="bi bi-twitter"></i></li>
+              <li class="px-2"><i class="bi bi-instagram"></i></li>
+              <li class="px-2"><i class="bi bi-github"></i></li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
