@@ -72,7 +72,7 @@ if(message===''){
 isValid=false;
 document.getElementById('message_Error').textContent="message is required";
 }else if(!regMessage.test(message)) {
-document.getElementById('message_Error').textContent="Invalid message";
+document.getElementById('message_Error').textContent="Message must be at least 10 characters long and can only contain letters, numbers, spaces, periods, and hyphens.";
 isValid=false;
 }else {
 document.getElementById('message_Error').textContent = '';
