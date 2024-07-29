@@ -1,5 +1,10 @@
 
-
+document.getElementById('contactButton').addEventListener('click', function() {
+    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+  });
+  document.getElementById('projectButton').addEventListener('click', function() {
+    document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
+  });
 document.getElementById('contactForm').addEventListener('submit',(event)=>{
 event.preventDefault();
 
